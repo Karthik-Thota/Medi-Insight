@@ -23,3 +23,7 @@ The project primarily uses Python, and the following libraries are required:
 - `sklearn`
 - `networkx`
 - `rouge_score`
+
+## Data Files Required
+
+The GloVe embeddings were trained on various large corpora, including Wikipedia and Gigaword. The "300d" represents that each word is embedded into a 300-dimensional vector. It is commonly used in NLP tasks, such as text summarization, sentiment analysis, and machine translation, to convert words into a format that machine learning models can understand. The significance of this file in this project is to compare the words in medical document and remove stopwords.
